@@ -5,8 +5,8 @@ export async function subscribe({ email }) {
     email_address: email,
     status: 'subscribed',
   };
-  const listId = 'eff4bfaf38';
-  const API_KEY = '774b3e1a87410d75b3022bd0f2badbcb-us19';
+  const listId = 'XXXXX';
+  const API_KEY = 'XXXXX';
   await new Promise((resolve, reject) => {
     request.post(
       {
